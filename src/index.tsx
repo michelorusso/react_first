@@ -9,11 +9,11 @@ import reportWebVitals from './reportWebVitals';
 
 import Listato from './listato'
 
+import Viaggi from './Station/Viaggi'
+
 ReactDOM.render(
   <React.StrictMode>
-    <Maschera />
-    <br /><br />
-    <Listato></Listato>
+    <Viaggi></Viaggi>
   </React.StrictMode>,
   document.getElementById('root')
 );
